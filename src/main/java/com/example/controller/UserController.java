@@ -37,7 +37,7 @@ public class UserController {
 	@Resource
 	private PageMapper<User> pageMapper;
 
-	@Resource
+	@Autowired
 	private UserMapper userMapper;
 
 	@PostMapping("add")
